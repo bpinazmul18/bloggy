@@ -30,7 +30,7 @@ export default function Navbar() {
                   </span>
                 </Link>
                 <label
-                  for="hbr"
+                  htmlFor="hbr"
                   className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden"
                 >
                   <div
@@ -47,12 +47,12 @@ export default function Navbar() {
                 <div className="text-gray-600 lg:pr-4">
                   <ul className="space-y-6 tracking-wide font-medium text-lg lg:text-sm lg:flex lg:space-y-0">
                     <li>
-                      <a
-                        href="#!"
+                      <Link
+                        to="/"
                         className="block md:px-4 transition hover:text-sky-700"
                       >
                         <span>Home</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a

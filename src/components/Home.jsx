@@ -33,7 +33,7 @@ export default function Home() {
                 key={blog.id}
                 id={blog.id}
                 title={blog.title}
-                description={blog.description}
+                description={blog.short_description}
               />
             );
           })}
