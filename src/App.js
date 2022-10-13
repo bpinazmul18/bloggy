@@ -3,10 +3,12 @@ import Home from "./components/Home";
 import Blog from "./components/Blog";
 import "./App.css";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="blogs/:id" element={<Blog />} />
