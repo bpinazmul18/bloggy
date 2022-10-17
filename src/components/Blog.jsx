@@ -12,7 +12,7 @@ export default function Blog() {
   useEffect(() => {
     const blog = fetchBlog(parseInt(id));
     setBlog(blog);
-  }, []);
+  }, [id]);
 
   if (!blog) return;
 
