@@ -39,7 +39,7 @@ export default function Footer() {
                 </li>
               </ul>
 
-              <ul role="list" className="space-y-8">
+              <ul className="space-y-8">
                 <li>
                   <a
                     href="!#"
